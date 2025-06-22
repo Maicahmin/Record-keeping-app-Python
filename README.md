@@ -30,25 +30,25 @@ If End, display THANK YOU
 
 ----------------------------------------------------------------------------------------------------
 
-print()
+    print()
 
-print(">>>>>> Record Keeping App <<<<<<<")
+    print(">>>>>> Record Keeping App <<<<<<<")
 
-print()
+    print()
 
-print("Available Operators:")
+    print("Available Operators:")
 
-print("A) Add Data")
+    print("A) Add Data")
 
-print("B) Delete Data")
+    print("B) Delete Data")
 
-print("C) End")
-
-
-dict = {'fname': 'Maicah', 'lname': 'min'}
+    print("C) End")
 
 
-while True:
+    dict = {'fname': 'Maicah', 'lname': 'min'}
+
+
+    while True:
 
     selection = str(input("\nSelect an option [A,B,C]: "))
     
